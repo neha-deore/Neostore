@@ -1,0 +1,15 @@
+#card1:hover{
+    box-shadow: 0 0 5px 5px grey;
+}
+
+.card2:hover{
+    color: white;
+    background-color: #dc3545;
+}
+
+.side{
+    background-color: #dcdcdc;
+}
+.products{
+    background-color: #a9a9a9;
+}

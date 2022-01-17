@@ -1,0 +1,36 @@
+.ull{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.profile_img{
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+}
+
+
+#side_account::before{
+    content:"";
+    position:absolute;
+   background: url('https://images.homify.com/c_fill,f_auto,q_0,w_740/v1540383274/p/photo/image/2762635/_C2P3203mod_.jpg') no-repeat center/cover;
+     height:100%;
+    width: 100%; 
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+#main_account::before{
+    content:"";
+    position:absolute;
+    height: 100vh;
+    width: 100%; 
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+ 
